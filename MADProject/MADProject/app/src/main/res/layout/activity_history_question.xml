@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/questionsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Questions For History"
+        android:textColor="@color/purple_200"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Who was the first President of the United States?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/questionsTextView"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/answersGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question1"
+        android:layout_marginTop="8dp">
+        <RadioButton
+            android:id="@+id/answer1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thomas Jefferson"/>
+        <RadioButton
+            android:id="@+id/answer1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="George Washington"/>
+        <RadioButton
+            android:id="@+id/answer1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abraham Lincoln"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. In what year did the Titanic sink?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/answersGroup1"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/answersGroup2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question2"
+        android:layout_marginTop="8dp">
+        <RadioButton
+            android:id="@+id/answer2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1912"/>
+        <RadioButton
+            android:id="@+id/answer2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1905"/>
+        <RadioButton
+            android:id="@+id/answer2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1898"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Who discovered America in 1492?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/answersGroup2"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/answersGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question3"
+        android:layout_marginTop="8dp">
+        <RadioButton
+            android:id="@+id/answer3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Christopher Columbus"/>
+        <RadioButton
+            android:id="@+id/answer3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ferdinand Magellan"/>
+        <RadioButton
+            android:id="@+id/answer3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="James Cook"/>
+    </RadioGroup>
+
+</RelativeLayout>

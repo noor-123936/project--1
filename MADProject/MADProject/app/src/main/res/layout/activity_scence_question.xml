@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/questionsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Questions For Science"
+        android:textColor="@color/purple_200"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. What planet is known as the Red Planet?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/questionsTextView"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/answersGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question1"
+        android:layout_marginTop="8dp">
+        <RadioButton
+            android:id="@+id/answer1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Earth"/>
+        <RadioButton
+            android:id="@+id/answer1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mars"/>
+        <RadioButton
+            android:id="@+id/answer1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jupiter"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. What is the chemical symbol for water?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/answersGroup1"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/answersGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question2"
+        android:layout_marginTop="8dp">
+        <RadioButton
+            android:id="@+id/answer2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H2O"/>
+        <RadioButton
+            android:id="@+id/answer2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CO2"/>
+        <RadioButton
+            android:id="@+id/answer2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O2"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. What force keeps us on the ground?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/answersGroup2"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/answersGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question3"
+        android:layout_marginTop="8dp">
+        <RadioButton
+            android:id="@+id/answer3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magnetism"/>
+        <RadioButton
+            android:id="@+id/answer3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gravity"/>
+        <RadioButton
+            android:id="@+id/answer3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friction"/>
+    </RadioGroup>
+
+</RelativeLayout>
